@@ -1,5 +1,12 @@
 # onlineDrivingLicenceClone
+
 learning react and try to clone nepal driving licence website
+
+### Things i will be learning and implement in this project
+- react basic concept
+- react route
+- containerize the applciation using docker
+
 
 # screenshot
 
