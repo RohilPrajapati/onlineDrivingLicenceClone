@@ -9,11 +9,11 @@ const LoginForm = () => {
             <TextField className="w-100 my-3" id="my-input" label="password" variant='outlined' type='password'/>
             <div className='d-flex justify-content-between my-3'>
                 <span>Remember Me</span>
-                <Link to={'../forgot-password'} className="text-decoration-none">Forgot Password ?</Link>
+                <Link to={'/forgot-password'} className="text-decoration-none">Forgot Password ?</Link>
             </div>
-            <Button variant="contained w-100 bg-primary text-white py-3 fw-bold rounded-3">Login</Button>
+            <Button variant="contained w-100 bg-primary py-3 fw-bold rounded-3"><Link className='text-white text-decoration-none' to={'/home'}>Login</Link></Button>
             <div className='my-3 text-center'>
-                <span>Don't have Account ?  <Link to={'../register'} className='text-decoration-none'>Sign Up</Link></span>
+                <span>Don't have Account ?  <Link to={'/register'} className='text-decoration-none'>Sign Up</Link></span>
             </div>
         </>
     );
