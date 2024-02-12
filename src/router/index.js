@@ -5,7 +5,9 @@ import UserPage from "../pages/User";
 import LoginForm from "../pages/User/components/LoginForm";
 import ForgotPasswordForm from "../pages/User/components/ForgotPasswordForm";
 import RegisterForm from "../pages/User/components/RegisterForm";
+import SearchLicense from "../pages/User/components/SearchLicense";
 import Home from "../pages/Home";
+
 export const router = createBrowserRouter(
     createRoutesFromElements(
         <Route>
@@ -16,6 +18,7 @@ export const router = createBrowserRouter(
                     <Route path="login" element={<LoginForm />} />
                     <Route path="register" element={<RegisterForm />} />
                     <Route path="forgot-password" element={<ForgotPasswordForm />} />
+                    <Route path="license-check" element={<SearchLicense />} />
                 </Route>
             </Route>
             <Route path="/" element={<InnerLayout />}>
