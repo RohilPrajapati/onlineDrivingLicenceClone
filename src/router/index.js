@@ -7,6 +7,7 @@ import ForgotPasswordForm from "../pages/User/components/ForgotPasswordForm";
 import RegisterForm from "../pages/User/components/RegisterForm";
 import SearchLicense from "../pages/User/components/SearchLicense";
 import Home from "../pages/Home";
+import Profile from "../pages/Profile";
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -23,6 +24,7 @@ export const router = createBrowserRouter(
             </Route>
             <Route path="/" element={<InnerLayout />}>
                 <Route path="home" element={<Home />} />
+                <Route path="profile" element={<Profile />} />
             </Route>
         </Route>
 

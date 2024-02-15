@@ -29,6 +29,9 @@ code {
   height: 70vh;
   overflow: auto;
 }
+.form-bg{
+  background-color: #e7eefe;
+}
 .card_img{
   width: 60px;
   height: 60px;
